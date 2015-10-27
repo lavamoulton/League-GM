@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding-right: 100px;
+    height:43px;
+    background-color:#EDEDEE;
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.4);
+}
+
+.clearfix:after {
+    display:block;
+    clear:both;
+}
+
+.menu li {
+    margin:0px;
+    list-style:none;
+    background-color:#EDEDEE;
+}
+
+.menu a {
+    transition:all linear 0.15s;
+    text-decoration:none;
+    color: #000;
+}
+
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color: #fff;
+}
+
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size: 19px;
+}
+
+.menu > ul > li > a {
+    padding: 10px 31px;
+    display: inline-block;
+}
+
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background: #666666;
+}
+
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+
+.sub-menu {
+    width:160%;
+    padding: 5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 3px 3px rgba(0,0,0,0.4);
+}
+
+.sub-menu li {
+    display:block;
+    font-size: 16px;
+}
+
+.sub-menu li a {
+    padding:10px 30px;
+    display: block;
+    background-color: #fff;
+    color: #000000;
+}
+
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background-color: #EDEDEE;
+    color: #000000;
+}

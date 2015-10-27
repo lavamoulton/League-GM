@@ -1,0 +1,23 @@
+#register-form {
+    padding-left:200px;
+    padding-top:100px;
+    float:left;
+}
+
+#register-form h3 {
+    font-size:25px;
+    color:#000000;
+    margin-bottom:5px;
+}
+
+#login-form {
+    padding-left: 200px;
+    padding-top: 100px;
+    float:left;
+}
+
+#login-form h3 {
+    font-size:25px;
+    color:#000000;
+    margin-bottom:5px;
+}
